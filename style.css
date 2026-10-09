@@ -11,11 +11,12 @@
   font-weight: 100 900;
 }
 
+/* honk-regular - latin */
 @font-face {
   font-family: 'Honk';
-  src: url('Fonts/honk-v6-latin-regular.woff2') format('woff2');
-  font-weight: 400;
   font-style: normal;
+  font-weight: 400;
+  src: url('Fonts/honk-v6-latin-regular.woff2') format('woff2'); /* Assure-toi que le chemin pointe bien vers ton dossier */
 }
 
 
