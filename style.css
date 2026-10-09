@@ -1,0 +1,153 @@
+/* ===== POLICES ===== */
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('Fonts/Comfortaa-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('Fonts/Manrope-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+@font-face {
+  font-family: 'Honk';
+  src: url('Fonts/honk-v6-latin-regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* ===== BODY ===== */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #6E2804;
+  color: #FFF;
+  font-family: 'Comfortaa', sans-serif;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+/* ===== CARTE ===== */
+main {
+  width: 800px;
+  max-width: 100%;
+  background: #6E2804;
+  border-radius: 25px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+  padding: 1rem;
+}
+
+
+/* ===== HEADER ===== */
+header {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+#Nom {
+  font-family: 'Honk', sans-serif;
+  color: white;
+}
+
+.Taf {
+  margin-top: 1rem;
+}
+
+img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* ===== CITATION ===== */
+blockquote {
+  text-align: justify;
+  font-style: italic;
+  padding: 1rem;
+}
+
+cite {
+  display: block;
+  text-align: center;
+  font-style: oblique;
+  font-size: small;
+  margin-top: 1rem;
+}
+
+
+/* ===== LISTES + LIENS ===== */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: purple;
+}
+
+a:active {
+  background-color: #FF4500;
+  transform: translateY(2px);
+}
+
+
+/* ===== SECTIONS ===== */
+.LOCALISATION {
+  margin-bottom: 1rem;
+}
+
+.ligne {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+/* ===== LISTES + LIENS ===== */
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Petit fond blanc transparent pour détacher le lien */
+  border-radius: 8px;
+  transition: all 0.3s ease; /* Rend l'animation fluide */
+}
+
+a:hover {
+  color: white;
+  background-color: #FF4500; /* Change la couleur de fond au survol */
+  transform: translateY(-3px); /* Fait légèrement "flotter" le lien vers le haut */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Ajoute une ombre portée */
+}
+
+a:active {
+  background-color: #e03d00;
+  transform: translateY(0); /* Effet d'enfoncement au clic */
+}
